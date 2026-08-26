@@ -12,7 +12,7 @@ JLConsultoriaDigital/
 ├── README.md
 └── Imgs/
     ├── Logo - JL redonda.png
-    ├── FAVICON_JL.png
+    ├── LOGO_JL_HERO.jpg
     ├── IMG JL - Jessica Lisboa.jpg 
     └── IMG JL - Jessica e Leonardo.jpg
 ```

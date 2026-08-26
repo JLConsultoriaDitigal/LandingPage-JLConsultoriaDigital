@@ -6,8 +6,8 @@
 
 /* ---------- Variáveis centrais ---------- */
 :root {
-  --black: #050505;
-  --black-soft: #0b0b0b;
+  --black: #000000;
+  --black-soft: #080808;
   --white: #ffffff;
   --off-white: #f7f7f5;
   --gray-50: #f2f2f0;
@@ -91,7 +91,7 @@ button {
 .section-dark {
   position: relative;
   color: var(--white);
-  background: var(--black);
+  background: #000000;
   overflow: hidden;
 }
 
@@ -358,6 +358,20 @@ p {
   grid-template-columns: 1.05fr .95fr;
   align-items: center;
   gap: 60px;
+}
+
+.hero-logo-wrap {
+  width: min(100%, 650px);
+  margin-bottom: 34px;
+  background: #000000;
+}
+
+.hero-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000000;
+  object-fit: contain;
 }
 
 .hero-description {
@@ -1276,6 +1290,10 @@ p {
     max-width: 700px;
   }
 
+  .hero-logo-wrap {
+    width: min(100%, 620px);
+  }
+
   .about-photo-wrap {
     position: relative;
     top: auto;
@@ -1327,6 +1345,11 @@ p {
 
   h2 {
     font-size: clamp(2.35rem, 12vw, 3.6rem);
+  }
+
+  .hero-logo-wrap {
+    width: min(100%, 540px);
+    margin-inline: auto;
   }
 
   .hero-description {
